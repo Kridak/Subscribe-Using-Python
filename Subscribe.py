@@ -1,0 +1,23 @@
+#it only will work with the tab 3 in chrome, and when the youtube icon on chrome is positioned at x=733, y=529 (You Need To Change the position as Per Your Requirement)
+import pyautogui as P
+import time
+P.position()
+P.click(x=509, y=13)
+time.sleep(2)
+P.click(x=733, y=529)
+time.sleep(2)
+P.click(x=643, y=102)
+time.sleep(2)
+P.typewrite('Channel Name')
+time.sleep(2)
+P.click(x=1213, y=97)
+time.sleep(3)
+P.click(x=1454, y=259)
+time.sleep(2)
+P.click(x=1507, y=260)
+time.sleep(2)
+P.click(x=710, y=17)
+time.sleep(1)
+P.click(x=473, y=503)
+P.typewrite('Subscribed')
+#Internet Speed Should Be More Than >=2 Megbite/s
